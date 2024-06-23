@@ -7,6 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+fastapi-slim = "^0.111.0"
+loan-application-application = {path = "../../../application", develop = true}
+dependency-injector = "^4.41.0"
 
 
 [build-system]
